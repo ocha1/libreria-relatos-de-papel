@@ -1,0 +1,51 @@
+.main-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .main-page input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .book-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .book-item h2 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .book-item p {
+    font-size: 1rem;
+    color: #666;
+  }
